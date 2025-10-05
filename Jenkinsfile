@@ -16,13 +16,13 @@ pipeline {
                     sayHello('Adeel')
 
                     def u = new Utils(this)
-                    u.runSampleMethod("Yuvraj")    
+                    u.runSampleMethod("Hello world !")    
                 }
             }
         }
         stage('Completion') {
           steps {
-            echo "Shared library fucntions executed successfully!"
+            echo "Shared library functions executed successfully!"
           }
        }
     }
