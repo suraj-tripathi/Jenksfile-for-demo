@@ -13,7 +13,7 @@ pipeline {
         stage('Shared Library Execution') {
             steps {
                 script {
-                    sayHello('Adeel')
+                    sayHello('suraj')
 
                     def u = new Utils(this)
                     u.runSampleMethod("Hello world !")    
